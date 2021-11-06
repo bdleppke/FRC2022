@@ -20,12 +20,12 @@ import edu.wpi.first.wpilibj.trajectory.TrapezoidProfile;
  */
 public final class Constants {
 	public static final class DriveConstants {
-		public static final int kFrontLeftDriveMotorPort = 0;
+		public static final int kFrontLeftDriveMotorPort = 1;
 		public static final int kRearLeftDriveMotorPort = 2;
 		public static final int kFrontRightDriveMotorPort = 4;
 		public static final int kRearRightDriveMotorPort = 6;
 
-		public static final int kFrontLeftTurningMotorPort = 1;
+		public static final int kFrontLeftTurningMotorPort = 11;
 		public static final int kRearLeftTurningMotorPort = 3;
 		public static final int kFrontRightTurningMotorPort = 5;
 		public static final int kRearRightTurningMotorPort = 7;
